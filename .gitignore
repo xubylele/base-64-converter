@@ -163,3 +163,22 @@ cython_debug/
 
 *.txt
 *.pdf
+# Base64 converted media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
