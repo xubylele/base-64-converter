@@ -11,14 +11,16 @@ def base64_file_to_pdf(input_file, output_file):
     with open(output_file, 'wb') as file:
         file.write(pdf_data)
 
+    print(f"File converted successfully: {output_file}")
+
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Convert a base64 encoded file to a PDF file.')
+        description='Convert a base64 encoded file to a file.')
     parser.add_argument('--input', type=str, required=True,
                         help='File with the base64 encoded data.')
     parser.add_argument('--output', type=str, required=True,
-                        help='Output PDF file.')
+                        help='Output file.')
 
     args = parser.parse_args()
 
