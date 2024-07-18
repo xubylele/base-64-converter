@@ -14,8 +14,9 @@ In many cases, sensitive information needs to be shared or stored in a secure ma
 
 ### Command line arguments
 
-- --input: The path to the file that contains the base64 string you want to convert to any file format.
-- --output: The path where you want to save the converted file.
+- -i, --input: The path to the file that contains the base64 string you want to convert to any file format.
+- -o, --output: The path where you want to save the converted file.
+- h, --help: Show the help message and exit.
 
 ### Example
 
