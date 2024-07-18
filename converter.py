@@ -17,10 +17,10 @@ def base64_file_to_pdf(input_file, output_file):
 def main():
     parser = argparse.ArgumentParser(
         description='Convert a base64 encoded file to a file.')
-    parser.add_argument('--input', type=str, required=True,
+    parser.add_argument('-i', '--input', type=str, required=True,
                         help='File with the base64 encoded data.')
-    parser.add_argument('--output', type=str, required=True,
-                        help='Output file.')
+    parser.add_argument('-o', '--output', type=str,
+                        required=True, help='Output file.')
 
     args = parser.parse_args()
 
