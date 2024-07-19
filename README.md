@@ -16,7 +16,7 @@ In many cases, sensitive information needs to be shared or stored in a secure ma
 
 - -i, --input: The path to the file that contains the base64 string you want to convert to any file format.
 - -o, --output: The path where you want to save the converted file. Is required when converting from base64 to a file format.
-- h, --help: Show the help message and exit.
+- -h, --help: Show the help message and exit.
 - -m, --mode: The mode of the conversion. It can be either "to_base64" or "from_base64". The default mode is "from_base64".
 
 ### Example
