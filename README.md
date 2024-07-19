@@ -25,5 +25,5 @@ In many cases, sensitive information needs to be shared or stored in a secure ma
 - Run the conversion command:
   
   ```bash
-    python converter.py --input fileToConvert.txt --output output.pdf
+    python converter.py --input fileToConvert.txt --output output.pdf --mode from_base64
   ```
